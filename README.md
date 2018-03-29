@@ -1,1 +1,1 @@
-# Various DL
+# Various DL projects using mainly FastAi framework (submodule)
