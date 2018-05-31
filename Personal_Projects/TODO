@@ -1,0 +1,11 @@
+Separate binary and multiclass classification
+Clean up 
+Separate the code
+  - get data
+  - clean data
+  - train model
+  - improve model 
+  -- data augmentation
+  -- learning rate finder 
+  -- Grid Search? 
+  
