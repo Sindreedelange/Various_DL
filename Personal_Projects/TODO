@@ -1,3 +1,4 @@
+Precompute = False → Data Augmentation
 Separate binary and multiclass classification
 Clean up 
 Separate the code
