@@ -5,3 +5,7 @@ Personal_Projects/BinaryClassification/data/*
 Personal_Projects/MulticlassClassification/data/*
 st-gcn
 nturgbd_skeletons.zip
+Personal_Projects/.ipynb_checkpoints/
+Personal_Projects/MulticlassClassification/.ipynb_checkpoints/
+Personal_Projects/PyTorch Tutorial.ipynb
+Personal_Projects/data/
