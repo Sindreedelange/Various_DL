@@ -1,5 +1,3 @@
-Precompute = False → Data Augmentation
-Separate binary and multiclass classification
 Clean up 
 Separate the code
   - get data
@@ -9,4 +7,8 @@ Separate the code
   -- data augmentation
   -- learning rate finder 
   -- Grid Search? 
-  
+Change image size (avoid overfitting) 
+- Start with 224, then resize with "learn.set_data(get_data(229, bs))" and continue training 
+- (tmp_lesson1-breeds.ipynb, 3.3)
+Drop cycle_mult for Resnext 
+unfreeze + differential learning rate annealign 
