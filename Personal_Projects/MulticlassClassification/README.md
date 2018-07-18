@@ -35,8 +35,10 @@ The Google Images Downloader is described in the *FemaleFace_MaleFace_Unknown_Cl
 However, if you have pip installed:
 ```pip install google_images_download```
 
-*NOTE* If one wants to download > 100 images pr. searchword:
+*NOTE* If one wants to download > 100 images pr. searchword: 
+
 ```http://chromedriver.chromium.org/downloads```
+
 Download correct version, and, if necessary, edit path to the `.exe` file
 
 ## Running the project
