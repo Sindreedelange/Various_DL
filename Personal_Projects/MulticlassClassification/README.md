@@ -59,9 +59,19 @@ In order to get the submodule, rest of the necessary software and making a virtu
 ```conda env update``` (coffe break!) 
 > Amongst other things, downloads Cuda, which is why one needs a GPU that supports a newer version of this software.
 
+#### If one does not have a GPU and wishes to try and run deep learning on a CPU:
+
+```conda env update -f environment-cpu.yml```
+
+
+### Starting the virtual environment
 After the fast.ai submodule and necessary software are downloaded, and the virtual environment is made:
+
 ```cd ..```
-```conda activate fastai```
+
+```conda activate fastai``` (for GPU)
+
+```conda activate fastai-cpu``` (for CPU)
 
 Everything is set up - run a Jupter Notebook, open the _.ipynb_ file and follow the instructions in the notebook :) 
 
