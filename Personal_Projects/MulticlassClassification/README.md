@@ -30,10 +30,17 @@ For complete walk through installing and set up of Anaconda: https://medium.com/
 
 Using Anaconda one gets Python and Jupyter Notebook with minimum hassle.
 
-```
-Google Images Downloader
-```
-The Google Images Downloader is described in the *FemaleFace_MaleFace_Unknown_Classification* notebook. 
+## Google Images Downloader
+The Google Images Downloader is described in the *FemaleFace_MaleFace_Unknown_Classification* notebook.
+However, if you have pip installed:
+
+```pip install google_images_download```
+
+*NOTE* If one wants to download > 100 images pr. searchword: 
+
+```http://chromedriver.chromium.org/downloads```
+
+Download correct version, and, if necessary, edit path to the `.exe` file (_chromedriver_path_)
 
 ## Running the project
 After installation of necessary software there are still quite a few more programs to download, but as mentioned Conda makes this quite easy. 
