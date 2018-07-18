@@ -12,6 +12,7 @@ Anaconda
 Python > 2.7
 Jupyter Notebook
 Google Images Downloader 
+GPU that supports newer versions of Cuda 
 ```
 
 ### Installing
@@ -23,11 +24,11 @@ I would recommend using Virtual Environments, at least for this project, because
 
 One way to do this is to install Anaconda, which also works as a packet manager (think Pip): https://www.anaconda.com/download/. 
 
-__NOTE__: The Anaconda (and the Python) version needs to be > 2.7.
+__NOTE__: The Anaconda (and Python) version needs to be > 2.7.
 
-For a total walk through installing and set up of Anaconda: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
+For complete walk through installing and set up of Anaconda: https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444
 
-With Anaconda one gets Python and Jupyter Notebook with minimum hassle.
+Using Anaconda one gets Python and Jupyter Notebook with minimum hassle.
 
 ```
 Google Images Downloader
@@ -49,6 +50,7 @@ In order to get the submodule, rest of the necessary software and making a virtu
 ```git submodule update```
 
 ```conda env update``` (coffe break!) 
+> Amongst other things, downloads Cuda, which is why one needs a GPU that supports a newer version of this software.
 
 After the fast.ai submodule and necessary software are downloaded, and the virtual environment is made:
 ```cd ..```
