@@ -73,8 +73,14 @@ After the fast.ai submodule and necessary software are downloaded, and the virtu
 
 ```conda activate fastai-cpu``` (for CPU)
 
+*Note* Just follow the instructions in the command windows after running the *conda env update* (on some computers I had to run *conda activate ..* and some just *activate ..* 
+
 Everything is set up - run a Jupter Notebook, open the _.ipynb_ file and follow the instructions in the notebook :) 
 
+## Error Messages
+When trying to run the CPU version, one might encounter different error messages. 
+
+On of these are ```Cunda Runtime Error (8)``` , I found the solution to be to edit the *environment-cpu.yml* file in the FastAi-folder. More specifically, edit line 90 from *- pytorch<0.4* to *- pytorch-cpu<0.4*. 
 
 
 
